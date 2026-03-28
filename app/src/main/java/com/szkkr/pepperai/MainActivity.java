@@ -35,7 +35,7 @@ public class MainActivity extends RobotController implements ExecuteEndedListene
     private Button gomb;
 
     private final String thisIsTerrible = "The fuck is this";
-    private final String apiKey = "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"; // Not secure!!!
+    private final String apiKey = ""; // Not secure!!!
     private final String systemMessage = "Te a Balassagyarmati Balassi Bálint Gimnázium mesterséges intelligencia alapú robotja vagy. \n" +
             "A te neved Pepi.\n" +
             "\n" +
