@@ -55,6 +55,7 @@ public class MainActivity extends RobotController implements ExecuteEndedListene
     private final GroqApiService apiService = new GroqApiService(apiKey);
     private SpeechManager speechManager = new SpeechManager();
     private volatile ChatMemory memory = new ChatMemory();
+    private final String boring = "This code is so damn boring to see";
 
 
     private volatile boolean isHolding = false;
