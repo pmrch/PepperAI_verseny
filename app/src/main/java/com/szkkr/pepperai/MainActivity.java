@@ -62,6 +62,7 @@ public class MainActivity extends RobotController implements ExecuteEndedListene
     
     // Direct keyword-response map for simplicity
     private Map<String, String> keywordResponses = new HashMap<>();
+    // Are you kidding me bruv
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
