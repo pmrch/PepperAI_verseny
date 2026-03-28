@@ -34,8 +34,7 @@ public class MainActivity extends RobotController implements ExecuteEndedListene
     private static final String TAG = "MainActivity";
     private Button gomb;
 
-    private final String thisIsTerrible = "The fuck is this";
-    private final String apiKey = ""; // Not secure!!!
+    private final String apiKey = "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"; // Not secure!!!
     private final String systemMessage = "Te a Balassagyarmati Balassi Bálint Gimnázium mesterséges intelligencia alapú robotja vagy. \n" +
             "A te neved Pepi.\n" +
             "\n" +
@@ -55,14 +54,12 @@ public class MainActivity extends RobotController implements ExecuteEndedListene
     private final GroqApiService apiService = new GroqApiService(apiKey);
     private SpeechManager speechManager = new SpeechManager();
     private volatile ChatMemory memory = new ChatMemory();
-    private final String boring = "This code is so damn boring to see";
 
 
     private volatile boolean isHolding = false;
     
     // Direct keyword-response map for simplicity
     private Map<String, String> keywordResponses = new HashMap<>();
-    // Are you kidding me bruv
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
